@@ -6,11 +6,13 @@
 
 .navigation {
   display: flex;
+  flex-direction: column;
+  align-content: flex-end;
   list-style: none;
-  gap:16px;
+  gap: 16px;
 }
 
-.navigation a:hover{
-    color: #f0f0f0 ;
-    text-decoration: underline;
+.navigation a:hover {
+  color: #f0f0f0;
+  text-decoration: underline;
 }

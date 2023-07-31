@@ -3,12 +3,16 @@ import styles from "./Navigation.module.css";
 
 const links = [
   {
-    label: "Home",
-    route: "/",
+    label: "Trabajos",
+    route: "/work",
   },
   {
-    label: "About",
+    label: "Sobre mi",
     route: "/about",
+  },
+  {
+    label: "Contacto",
+    route: "/contact",
   },
 ];
 
