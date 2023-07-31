@@ -2,17 +2,49 @@
   border: 1px solid #f0f0f0;
   border-radius: 4px;
   padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.datos {
+  display: flex;
+  flex-direction: row;
+  gap: 180px;
+  align-content: flex-start;
+}
+
+.header nav {
+  display: flex;
+  align-content: flex-end;
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
-  align-content: flex-end;
   list-style: none;
   gap: 16px;
 }
 
+.datos p {
+  width: 30ch;
+  font-size: 25px;
+}
+
+.datos h3 {
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  color: white;
+  align-content: flex-start;
+}
+
 .navigation a:hover {
-  color: #f0f0f0;
+  color: #ff0000;
   text-decoration: underline;
 }
