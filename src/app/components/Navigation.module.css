@@ -1,7 +1,5 @@
 .header {
-  border: 1px solid #f0f0f0;
-  border-radius: 4px;
-  padding: 4px;
+  padding: 2px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,7 +36,6 @@
 .link {
   text-decoration: none;
   display: flex;
-  justify-content: flex-end;
   font-size: 20px;
   color: white;
   align-content: flex-start;

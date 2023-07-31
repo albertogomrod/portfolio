@@ -1,3 +1,9 @@
+import styles from "./globals.css";
+
 export default function Home() {
-  return <h2>POrtfolioooo</h2>;
+  return (
+    <section id={styles.seccionIniciales}>
+      <p id="iniciales">AGWD</p>
+    </section>
+  );
 }
