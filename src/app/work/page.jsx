@@ -1,3 +1,3 @@
 export default function Work() {
-  return <h2>Trabajos</h2>;
+  return (<><h2>Trabajos</h2></>);
 }
