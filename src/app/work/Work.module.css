@@ -1,0 +1,32 @@
+.body {
+  max-width: 100%;
+  margin-top: 50px;
+  background-color: rgb(241,239,236);
+}
+
+.seccion1 {
+  display: flex;
+  flex-direction: row;
+  gap: 450px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.seccion1 h3 {
+  width: 13ch;
+  font-size: 150px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.proyectoCompleto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.descripcionProyecto{
+    width: 52ch;
+}
