@@ -30,3 +30,43 @@
 .descripcionProyecto{
     width: 52ch;
 }
+
+.proyectoCompleto li{
+  list-style: none;
+  font-size: 18px;
+  color: rgb(101,100,99);
+}
+
+.proyectoCompleto ul{
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.proyectoCompleto h5{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.proyectoCompleto h6{
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.proyectoCompleto p{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.proyectoCompleto a{
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(101,100,99)
+}
+
+.proyectoCompleto a:hover {
+  color: #000000;
+}
