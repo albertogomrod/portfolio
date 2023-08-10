@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./Contact.module.css";
 export default function Contact() {
   return (
@@ -19,7 +18,7 @@ export default function Contact() {
             <p>03</p>
           </div>
         </div>
-        <div >
+        <div>
           <p>©2023 Alberto GoGlobal</p>
           <p id="iniciales">AGWD</p>
         </div>
